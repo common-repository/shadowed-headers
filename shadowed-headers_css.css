@@ -1,0 +1,32 @@
+/* 3D- Überschriften*/
+.shadow p {
+	line-height:inherit;
+	font-family:inherit;
+	font-style:inherit;
+	font-size:inherit;
+/*	font-weight:bold !important;*/
+	letter-spacing:inherit;
+}
+.shadow{
+font-weight:bold !important;
+	display: block;
+	line-height: 1.0551em !important;
+/*	color: #666;  shadow color */
+	background-color: transparent;
+	overflow:hidden;
+}
+.shadow p.before,.shadow p.before a{
+font-weight:bold !important;
+/*	font-size: inherit;*/
+	margin-bottom: -1.1em !important;
+	margin-left: 0.04ex !important;
+	color:#8F8686; /* shadow color */
+	background-color: transparent;
+}
+.shadow p.after, .shadow p.after a{
+font-weight:bold !important;
+/*	font-size: inherit;*/
+	margin-top: -1.04em !important;
+	margin-left: -0.05ex !important;
+}
+/* ------- Ende 3D- Überschriften*/
